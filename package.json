@@ -11,20 +11,28 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.0",
-    "@strapi/plugin-users-permissions": "4.0.0",
-    "@strapi/plugin-i18n": "4.0.0",
-    "sqlite3": "5.0.2"
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-utils": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "61225521-7be4-445c-b494-6cb1620eb88a"
+    "uuid": "e4f0add6-9f24-4c56-a308-4688c48cad01"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
   },
   "license": "MIT"
 }
